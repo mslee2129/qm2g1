@@ -1,4 +1,4 @@
-# qm2g1
+# Protests and Social Indicators: What can social indicators tell us about the type and frequency of protests in some countries?
 QM2 Group 1 Project
 Deadlines: 6th Nov. 2020 - Project Proposal
 
