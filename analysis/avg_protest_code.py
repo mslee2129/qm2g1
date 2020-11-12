@@ -13,10 +13,11 @@ df.replace(to_replace='Slovak Republic', value='Slovakia', inplace=True)
 df = df[df.country != 'Yugoslavia']
 df = df[df.country != 'Serbia and Montenegro']
 df.reset_index(inplace=True)
+# save cleaned csv file
 df.to_csv("protests_data_filtered.csv")
 # print(df)
-# print(df.columns.tolist)
-# df.loc[0]
+
+# extract dataframes from df
 countries = df.loc[:, 'country']
 years = df.loc[:, 'year']
 has_protest = df.loc[:, 'protest']
@@ -24,9 +25,9 @@ countries_years = df.loc[:, ['country', 'year']]
 # print(years)
 # print(countries)
 
-# Counting number of protests per year by country
+# initialising lists & dictionaries
 country_list = []  # list of countries
-number_of_years = []
+number_of_years = [] # list of number of years data is provided
 protest_list = []  # list of number of protests
 average_protests = []  # list of average protests
 country_to_protest = {}  # dictionary of country:total protests
@@ -34,11 +35,10 @@ country_to_avg_protest = {}  # dic of country:average protests
 
 # making country list
 for country in countries:
-    # print(count, country)
     if country not in country_list:
         country_list.append(country)
 country_list = sorted(country_list)
-print(country_list)
+# print(country_list)
 
 # initialising country:total protest dic
 for country in country_list:
@@ -47,8 +47,6 @@ for country in country_list:
 # counting total protests and adding to dic
 for i in range(len(countries)):
     if has_protest[i] == 1:
-        # print(i, countries[i])
-        # if countries[i] == countries[i+1]:
         # print(i, countries[i])
         country_to_protest[countries[i]] += 1
 
@@ -84,7 +82,7 @@ for i in range(len(average_protests)):
 ## country:average protest bar chart
 # convert country:avg protest dic to dataframe
 df_avg_protest = pd.DataFrame(list(country_to_avg_protest.items()), columns=['country', 'avg_protests'])
-print(df_avg_protest)
+# print(df_avg_protest)
 df_avg_protest.to_csv('avg_protests.csv')
 
 
