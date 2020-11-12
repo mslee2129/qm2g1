@@ -1,20 +1,23 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+## initialising dataframe
 protests_data = pd.read_csv("mass-mobilization-protest-data-QueryResult.csv")
 # print(protests_data)
 df = pd.DataFrame(protests_data)
 
-# editing dataframe
+## editing dataframe
+# replacing names
 df.replace(to_replace='Congo Brazzaville', value='Republic of the Congo', inplace=True)
 df.replace(to_replace='Congo Kinshasa', value='Democratic Republic of the Congo', inplace=True)
 df.replace(to_replace='Bosnia', value='Bosnia and Herzegovina', inplace=True)
 df.replace(to_replace='Slovak Republic', value='Slovakia', inplace=True)
+# deleting countries that do not exist anymore
 df = df[df.country != 'Yugoslavia']
 df = df[df.country != 'Serbia and Montenegro']
 df.reset_index(inplace=True)
-# save cleaned csv file
-df.to_csv("protests_data_filtered.csv")
+# uncomment below to save cleaned csv file
+# df.to_csv("protests_data_filtered.csv")
 # print(df)
 
 # extract dataframes from df
@@ -25,7 +28,7 @@ countries_years = df.loc[:, ['country', 'year']]
 # print(years)
 # print(countries)
 
-# initialising lists & dictionaries
+## initialising lists & dictionaries
 country_list = []  # list of countries
 number_of_years = [] # list of number of years data is provided
 protest_list = []  # list of number of protests
@@ -33,6 +36,7 @@ average_protests = []  # list of average protests
 country_to_protest = {}  # dictionary of country:total protests
 country_to_avg_protest = {}  # dic of country:average protests
 
+## appending lists and dictionaries
 # making country list
 for country in countries:
     if country not in country_list:
@@ -60,8 +64,6 @@ for country in country_list:
     max_year = 2020
     diff = max_year - min_year
     number_of_years.append(diff)
-# print(number_of_years)
-# print(len(number_of_years))
 
 # making list of average protests
 for i in range(len(country_list)):
@@ -71,11 +73,13 @@ for i in range(len(country_list)):
 for i in range(len(average_protests)):
     country_to_avg_protest[country_list[i]] = average_protests[i]
 
+# uncomment below to test
 # print(country_to_protest)
 # print(country_list)
 # print(protest_list)
 # print(year_list)
 # print(len(country_list))
+# print(number_of_years)
 # print(average_protests)
 # print(country_to_avg_protest)
 
@@ -83,8 +87,8 @@ for i in range(len(average_protests)):
 # convert country:avg protest dic to dataframe
 df_avg_protest = pd.DataFrame(list(country_to_avg_protest.items()), columns=['country', 'avg_protests'])
 # print(df_avg_protest)
-df_avg_protest.to_csv('avg_protests.csv')
-
+# uncomment below to save avg_protest to csv
+# df_avg_protest.to_csv('avg_protests.csv')
 
 # plot horizontal bar chart
 df_avg_protest.reset_index().plot(x='country', y='avg_protests', kind='barh', title='Avg Protests per Year by Country', figsize=(60, 45))
@@ -92,5 +96,7 @@ plt.title('Avg Protests per Year by Country', fontsize=35)
 plt.ylabel('Country', fontsize=25)
 plt.xlabel('Average Protests from 2000', fontsize=25)
 plt.grid(b=True, which='major', color='#666666', linestyle='-')
+# uncomment below to show graph
 # plt.show()
-plt.savefig('avg_protests_by_country.png')
+# uncomment below to save graph as .png
+# plt.savefig('avg_protests_by_country.png')
