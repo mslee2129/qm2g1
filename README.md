@@ -3,5 +3,7 @@ QM2 Group 1 Project
 Deadlines: 6th Nov. 2020 - Project Proposal
 
 Analysis: Python code to filter data and make visualisations
+
 Data: Datasets used for protests and social indicators
+
 Website: Content to upload on website
