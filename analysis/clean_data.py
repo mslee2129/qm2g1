@@ -4,9 +4,11 @@ import pandas as pd
 # download from datasets file
 unemployment_data = pd.read_csv("API_SL.UEM.TOTL.ZS_DS2_en_csv_v2_1622103.csv")
 protests_data = pd.read_csv("mass-mobilization-protest-data-QueryResult.csv")
+corruption_data = pd.read_csv("corruption_data_final.csv")
 
 df_unemployment = pd.DataFrame(unemployment_data)
 df_protests = pd.DataFrame(protests_data)
+df_corruption = pd.DataFrame(corruption_data)
 
 ## replacing & deleting values
 # replacing values in unemployment_data
@@ -41,11 +43,27 @@ df_protests.replace(to_replace='United Arab Emirate', value='United Arab Emirate
 df_protests = df_protests[df_protests.country != 'Yugoslavia']
 df_protests = df_protests[df_protests.country != 'Serbia and Montenegro']
 
+# replacing values in corruption_data
+df_corruption.replace(to_replace='Cabo Verde', value='Cape Verde', inplace=True)
+df_corruption.replace(to_replace='Congo', value='Congo, Rep.', inplace=True)
+df_corruption.replace(to_replace="Cote d'Ivoire", value='Ivory Coast', inplace=True)
+df_corruption.replace(to_replace="Democratic Republic of the Congo", value='Congo, Dem. Rep.', inplace=True)
+df_corruption.replace(to_replace='Eswatini', value='Swaziland', inplace=True)
+df_corruption.replace(to_replace='Guinea Bissau', value='Guinea-Bissau', inplace=True)
+df_corruption.replace(to_replace='Guinea Bissau', value='Guinea-Bissau', inplace=True)
+df_corruption.replace(to_replace='Korea, South', value='South Korea', inplace=True)
+df_corruption.replace(to_replace='Korea, North', value='North Korea', inplace=True)
+df_corruption.replace(to_replace='Korea, North', value='North Korea', inplace=True)
+df_corruption.replace(to_replace='Timor-Leste', value='Timor Leste', inplace=True)
+
+
 # initialise lists to use in loop
 countries_protests = df_protests.loc[:, 'country']
 countries_unemployment = df_unemployment.loc[:, 'country']
+countries_corruption = df_corruption.loc[:, 'country']
 countries_protests_list = countries_protests.values.tolist()
 countries_unemployment_list = countries_unemployment.values.tolist()
+countries_corruption_list = countries_corruption.values.tolist()
 
 # delete countries in unemployment data that aren't in protests data
 for country in countries_unemployment_list:
@@ -63,7 +81,19 @@ for country in countries_protests_list:
     if country not in countries_unemployment_list:
         df_protests = df_protests[df_protests.country != country]
 df_protests.reset_index(inplace=True)
+df_protests.sort_values('country', inplace=True)
 df_protests.drop('index', axis=1, inplace=True)
 df_protests.drop('level_0', axis=1, inplace=True)
 # uncomment below to save cleaned csv file
 # df_protests.to_csv("protests_data_filtered.csv")
+
+# delete countries in corruption data that are not in the other two
+for country in countries_corruption_list:
+    if country not in countries_protests_list or country not in countries_unemployment_list:
+        df_corruption = df_corruption[df_corruption.country != country]
+df_corruption.sort_values('country', inplace=True)
+df_corruption.reset_index(inplace=True)
+df_corruption.drop('index', axis=1, inplace=True)
+df_corruption.drop('Unnamed: 0', axis=1, inplace=True)
+# uncomment below to save as csv file
+# df_corruption.to_csv("corruption_data_filtered.csv")
