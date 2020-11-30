@@ -1,3 +1,5 @@
+## The CPI data from 2000 to 2019 are in separate files, so run this code to combine the data into one file called 'corruption_data_final'.
+
 import pandas as pd
 
 corruption_data = pd.read_csv("CPI2019.csv")
@@ -23,4 +25,4 @@ for i in range(len(file_name)):
     df_corruption.insert(i+11, column_name[i], cpi_score_num)
 # print(df_corruption)
 # uncomment below to save as .csv
-df_corruption.to_csv('corruption_data_final.csv')
+# df_corruption.to_csv('corruption_data_final.csv')
