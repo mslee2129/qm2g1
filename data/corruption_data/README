@@ -1,1 +1,1 @@
-Download all csv files from 2000 to 2019 and do not edit the names
+Download all csv files from 2000 to 2019 and do not edit the names. Run corruption_data.py in the analysis folder to start cleaning the data.
