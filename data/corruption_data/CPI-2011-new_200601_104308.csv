@@ -1,0 +1,184 @@
+country,iso,region,score,rank,interval,value
+Afghanistan,AFG,AP,1.5,180,0.1,15
+Albania,ALB,ECA,3.1,95,0.18,31
+Algeria,DZA,MENA,2.9,112,0.16,29
+Angola,AGO,SSA,2,168,0.1,20
+Argentina,ARG,AME,3,100,0.21,30
+Armenia,ARM,ECA,2.6,129,0.16,26
+Australia,AUS,AP,8.8,8,0.12,88
+Austria,AUT,WE/EU,7.8,16,0.24,78
+Azerbaijan,AZE,ECA,2.4,143,0.19,24
+Bahamas,BHS,AME,7.3,21,0.11,73
+Bahrain,BHR,MENA,5.1,46,0.67,51
+Bangladesh,BGD,AP,2.7,120,0.34,27
+Barbados,BRB,AME,7.8,16,0.4,78
+Belarus,BLR,ECA,2.4,143,0.1,24
+Belgium,BEL,WE/EU,7.5,19,0.21,75
+Benin,BEN,SSA,3,100,0.18,30
+Bhutan,BTN,AP,5.7,38,0.28,57
+Bolivia,BOL,AME,2.8,118,0.18,28
+Bosnia and Herzegovina,BIH,ECA,3.2,91,0.12,32
+Botswana,BWA,SSA,6.1,32,0.19,61
+Brazil,BRA,AME,3.8,73,0.24,38
+Brunei,BRN,AP,5.2,44,0.59,52
+Bulgaria,BGR,WE/EU,3.3,86,0.27,33
+Burkina Faso,BFA,SSA,3,100,0.31,30
+Burundi,BDI,SSA,1.9,172,0.14,19
+Cambodia,KHM,AP,2.1,164,0.15,21
+Cameroon,CMR,SSA,2.5,134,0.19,25
+Canada,CAN,AME,8.7,10,0.15,87
+Cape Verde,CPV,SSA,5.5,41,0.29,55
+Central African Republic,CAF,SSA,2.2,154,0.05,22
+Chad,TCD,SSA,2,168,0.05,20
+Chile,CHL,AME,7.2,22,0.21,72
+China,CHN,AP,3.6,75,0.26,36
+Colombia,COL,AME,3.4,80,0.29,34
+Comoros,COM,SSA,2.4,143,0.37,24
+Congo Republic,COG,SSA,2.2,154,0.1,22
+Costa Rica,CRI,AME,4.8,50,0.59,48
+Côte d´Ivoire,CIV,SSA,2.2,154,0.15,22
+Croatia,HRV,WE/EU,4,66,0.21,40
+Cuba,CUB,AME,4.2,61,0.49,42
+Cyprus,CYP,WE/EU,6.3,30,0.37,63
+Czech Republic,CZE,WE/EU,4.4,57,0.29,44
+Democratic Republic of the Congo,COD,SSA,2,168,0.09,20
+Denmark,DNK,WE/EU,9.4,2,0.05,94
+Djibouti,DJI,SSA,3,100,0.59,30
+Dominica,DMA,AME,5.2,44,0.26,52
+Dominican Republic,DOM,AME,2.6,129,0.19,26
+Ecuador,ECU,AME,2.7,120,0.22,27
+Egypt,EGY,MENA,2.9,112,0.21,29
+El Salvador,SLV,AME,3.4,80,0.1,34
+Equatorial Guinea,GNQ,SSA,1.9,172,0.07,19
+Eritrea,ERI,SSA,2.5,134,0.56,25
+Estonia,EST,WE/EU,6.4,29,0.29,64
+Ethiopia,ETH,SSA,2.7,120,0.18,27
+Finland,FIN,WE/EU,9.4,2,0.07,94
+France,FRA,WE/EU,7,25,0.27,70
+FYR Macedonia,MKD,ECA,3.9,69,0.21,39
+Gabon,GAB,SSA,3,100,0.29,30
+Gambia,GMB,SSA,3.5,77,0.65,35
+Georgia,GEO,ECA,4.1,64,0.43,41
+Germany,DEU,WE/EU,8,14,0.18,80
+Ghana,GHA,SSA,3.9,69,0.28,39
+Greece,GRC,WE/EU,3.4,80,0.26,34
+Guatemala,GTM,AME,2.7,120,0.19,27
+Guinea,GIN,SSA,2.1,164,0.11,21
+Guinea-Bissau,GNB,SSA,2.2,154,0.1,22
+Guyana,GUY,AME,2.5,134,0.1,25
+Haiti,HTI,AME,1.8,175,0.14,18
+Honduras,HND,AME,2.6,129,0.19,26
+Hong Kong,HKG,AP,8.4,12,0.17,84
+Hungary,HUN,WE/EU,4.6,54,0.41,46
+Iceland,ISL,WE/EU,8.3,13,0.27,83
+India,IND,AP,3.1,95,0.12,31
+Indonesia,IDN,AP,3,100,0.27,30
+Iran,IRN,MENA,2.7,120,0.35,27
+Iraq,IRQ,MENA,1.8,175,0.09,18
+Ireland,IRL,WE/EU,7.5,19,0.23,75
+Israel,ISR,MENA,5.8,36,0.27,58
+Italy,ITA,WE/EU,3.9,69,0.19,39
+Jamaica,JAM,AME,3.3,86,0.18,33
+Japan,JPN,AP,8,14,0.27,80
+Jordan,JOR,MENA,4.5,56,0.29,45
+Kazakhstan,KAZ,ECA,2.7,120,0.37,27
+Kenya,KEN,SSA,2.2,154,0.12,22
+Kiribati,KIR,AP,3.1,95,0.56,31
+Korea (North),PRK,AP,1,182,0.24,10
+Korea (South),KOR,AP,5.4,43,0.23,54
+Kosovo,KSV,ECA,2.9,112,0.1,29
+Kuwait,KWT,MENA,4.6,54,0.66,46
+Kyrgyzstan,KGZ,ECA,2.1,164,0.09,21
+Laos,LAO,AP,2.2,154,0.16,22
+Latvia,LVA,WE/EU,4.2,61,0.3,42
+Lebanon,LBN,MENA,2.5,134,0.15,25
+Lesotho,LSO,SSA,3.5,77,0.44,35
+Liberia,LBR,SSA,3.2,91,0.34,32
+Libya,LBY,MENA,2,168,0.13,20
+Lithuania,LTU,WE/EU,4.8,50,0.44,48
+Luxembourg,LUX,WE/EU,8.5,11,0.25,85
+Macau,MAC,AP,5.1,46,0.74,51
+Madagascar,MDG,SSA,3,100,0.4,30
+Malawi,MWI,SSA,3,100,0.18,30
+Malaysia,MYS,AP,4.3,60,0.31,43
+Maldives,MDV,AP,2.5,134,0.15,25
+Mali,MLI,SSA,2.8,118,0.2,28
+Malta,MLT,WE/EU,5.6,39,0.23,56
+Mauritania,MRT,SSA,2.4,143,0.18,24
+Mauritius,MUS,SSA,5.1,46,0.37,51
+Mexico,MEX,AME,3,100,0.13,30
+Moldova,MDA,ECA,2.9,112,0.13,29
+Mongolia,MNG,AP,2.7,120,0.13,27
+Montenegro,MNE,ECA,4,66,0.5,40
+Morocco,MAR,MENA,3.4,80,0.37,34
+Mozambique,MOZ,SSA,2.7,120,0.16,27
+Myanmar,MMR,AP,1.5,180,0.26,15
+Namibia,NAM,SSA,4.4,57,0.3,44
+Nepal,NPL,AP,2.2,154,0.1,22
+Netherlands,NLD,WE/EU,8.9,7,0.11,89
+New Zealand,NZL,AP,9.5,1,0.05,95
+Nicaragua,NIC,AME,2.5,134,0.21,25
+Niger,NER,SSA,2.5,134,0.17,25
+Nigeria,NGA,SSA,2.4,143,0.14,24
+Norway,NOR,WE/EU,9,6,0.07,90
+Oman,OMN,MENA,4.8,50,0.82,48
+Pakistan,PAK,AP,2.5,134,0.13,25
+Panama,PAN,AME,3.3,86,0.23,33
+Papua New Guinea,PNG,AP,2.2,154,0.16,22
+Paraguay,PRY,AME,2.2,154,0.17,22
+Peru,PER,AME,3.4,80,0.16,34
+Philippines,PHL,AP,2.6,129,0.19,26
+Poland,POL,WE/EU,5.5,41,0.3,55
+Portugal,PRT,WE/EU,6.1,32,0.42,61
+Puerto Rico,PRI,AME,5.6,39,0.48,56
+Qatar,QAT,MENA,7.2,22,0.79,72
+Romania,ROU,WE/EU,3.6,75,0.17,36
+Russia,RUS,ECA,2.4,143,0.22,24
+Rwanda,RWA,SSA,5,49,0.72,50
+Saint Lucia,LCA,AME,7,25,0.26,70
+Saint Vincent and the Grenadines,VCT,AME,5.8,36,0.73,58
+Samoa,WSM,AP,3.9,69,0.35,39
+Sao Tome & Principe,STP,SSA,3,100,0.19,30
+Saudi Arabia,SAU,MENA,4.4,57,0.86,44
+Senegal,SEN,SSA,2.9,112,0.15,29
+Serbia,SRB,ECA,3.3,86,0.2,33
+Seychelles,SYC,SSA,4.8,50,0.97,48
+Sierra Leone,SLE,SSA,2.5,134,0.15,25
+Singapore,SGP,AP,9.2,5,0.13,92
+Slovakia,SVK,WE/EU,4,66,0.36,40
+Slovenia,SVN,WE/EU,5.9,35,0.39,59
+Solomon Islands,SLB,AP,2.7,120,0.28,27
+Somalia,SOM,SSA,1,182,0.23,10
+South Africa,ZAF,SSA,4.1,64,0.21,41
+Spain,ESP,WE/EU,6.2,31,0.28,62
+Sri Lanka,LKA,AP,3.3,86,0.23,33
+Sudan,SDN,SSA,1.6,177,0.08,16
+Suriname,SUR,AME,3,100,0.37,30
+Swaziland,SWZ,AP,3.1,95,0.08,31
+Sweden,SWE,WE/EU,9.3,4,0.08,93
+Switzerland,CHE,WE/EU,8.8,8,0.22,88
+Syria,SYR,MENA,2.6,129,0.16,26
+Taiwan,TWN,AP,6.1,32,0.31,61
+Tajikistan,TJK,ECA,2.3,152,0.28,23
+Tanzania,TZA,SSA,3,100,0.18,30
+Thailand,THA,AP,3.4,80,0.15,34
+Timor-Leste,TLS,AP,2.4,143,0.26,24
+Togo,TGO,SSA,2.4,143,0.08,24
+Tonga,TON,AP,3.1,95,0.17,31
+Trinidad and Tobago,TTO,AME,3.2,91,0.32,32
+Tunisia,TUN,MENA,3.8,73,0.67,38
+Turkey,TUR,ECA,4.2,61,0.22,42
+Turkmenistan,TKM,ECA,1.6,177,0.12,16
+Uganda,UGA,SSA,2.4,143,0.13,24
+Ukraine,UKR,ECA,2.3,152,0.1,23
+United Arab Emirates,ARE,MENA,6.8,28,0.46,68
+United Kingdom,GBR,WE/EU,7.8,16,0.15,78
+United States,USA,AME,7.1,24,0.4,71
+Uruguay,URY,AME,7,25,0.28,70
+Uzbekistan,UZB,ECA,1.6,177,0.11,16
+Vanuatu,VUT,AP,3.5,77,0.92,35
+Venezuela,VEN,AME,1.9,172,0.1,19
+Vietnam,VNM,AP,2.9,112,0.17,29
+Yemen,YEM,MENA,2.1,164,0.12,21
+Zambia,ZMB,SSA,3.2,91,0.31,32
+Zimbabwe,ZWE,SSA,2.2,154,0.37,22
