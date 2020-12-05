@@ -75,8 +75,7 @@ corruption_country.reset_index(inplace=True)
 # print(corruption_country)
 df['CPI_Score'] = corruption_country['CPI_Score']
 
-
-print(df)
+# print(df)
 
 plt.scatter(df['unemployment_rate'], df['protests'], color='green')
 plt.title('Protests Vs Unemployment Rate', fontsize=14)
