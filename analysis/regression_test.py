@@ -17,7 +17,6 @@ country_name = 'Afghanistan'
 protests_country = protests_data.loc[protests_data['country'] == country_name]
 # print(protests_country)
 
-
 protests_country = protests_country[['year', 'protest']]
 # print(protests_country)
 
