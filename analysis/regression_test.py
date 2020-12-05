@@ -37,7 +37,7 @@ year_list.sort()
 year_to_protests = {}
 for year in year_list:
     year_to_protests[year] = 0
-print(year_to_protests)
+# print(year_to_protests)
 
 # counting total protests and adding to dic
 for i in range(len(has_protest)):
@@ -57,7 +57,7 @@ unemployment_country.drop([0, 1], inplace=True)
 unemployment_country.reset_index(inplace=True)
 unemployment_country.drop('level_0', axis=1, inplace=True)
 unemployment_country.columns = ['year', 'unemployment_rate']
-print(unemployment_country)
+# print(unemployment_country)
 
 df = df_years_protests
 df['unemployment_rate'] = unemployment_country['unemployment_rate']
@@ -72,7 +72,7 @@ corruption_country.drop('level_0', axis=1, inplace=True)
 corruption_country.columns = ['year', 'CPI_Score']
 corruption_country.sort_values(by=['year'], ascending=True, inplace=True)
 corruption_country.reset_index(inplace=True)
-print(corruption_country)
+# print(corruption_country)
 df['CPI_Score'] = corruption_country['CPI_Score']
 
 
@@ -83,14 +83,20 @@ plt.title('Protests Vs Unemployment Rate', fontsize=14)
 plt.xlabel('Unemployment Rate', fontsize=14)
 plt.ylabel('Number of Protests', fontsize=14)
 plt.grid(True)
-plt.show()
+# uncomment below to show graph
+# plt.show()
+# uncomment below to save graph as .png
+# plt.savefig('unemployment_vs_protests_' + country_name + '.png')
 
 plt.scatter(df['CPI_Score'], df['protests'], color='green')
 plt.title('Protests Vs CPI Score', fontsize=14)
 plt.xlabel('CPI Score', fontsize=14)
 plt.ylabel('Number of Protests', fontsize=14)
 plt.grid(True)
-plt.show()
+# uncomment below to show graph
+# plt.show()
+# uncomment below to save graph as .png
+# plt.savefig('corruption_vs_protests_' + country_name + '.png')
 
 # X = df[['unemployment_rate']]
 # Y = df['protests']
