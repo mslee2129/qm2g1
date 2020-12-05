@@ -11,8 +11,10 @@ df_protests = pd.DataFrame(protests_data)
 df_unemployment = pd.DataFrame(unemployment_data)
 df_corruption = pd.DataFrame(corruption_data)
 
+country_name = 'Afghanistan'
+
 # change country below
-protests_country = protests_data.loc[protests_data['country'] == 'Honduras']
+protests_country = protests_data.loc[protests_data['country'] == country_name]
 # print(protests_country)
 
 
@@ -49,7 +51,7 @@ df_years_protests = pd.DataFrame(list(year_to_protests.items()), columns=['year'
 ## unemployment data
 # print(unemployment_data)
 # change country below
-unemployment_country = unemployment_data[unemployment_data['country'] == 'Honduras'].T
+unemployment_country = unemployment_data[unemployment_data['country'] == country_name].T
 unemployment_country.reset_index(inplace=True)
 unemployment_country.drop([0, 1], inplace=True)
 unemployment_country.reset_index(inplace=True)
@@ -62,7 +64,7 @@ df['unemployment_rate'] = unemployment_country['unemployment_rate']
 # print(protests_and_unemployment)
 
 ## corruption data
-corruption_country = corruption_data[corruption_data['country'] == 'Honduras'].T
+corruption_country = corruption_data[corruption_data['country'] == country_name].T
 corruption_country.reset_index(inplace=True)
 corruption_country.drop([0, 1, 2, 3], inplace=True)
 corruption_country.reset_index(inplace=True)
