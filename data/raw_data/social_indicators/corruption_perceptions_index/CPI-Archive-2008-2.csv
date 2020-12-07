@@ -1,0 +1,181 @@
+country,iso,region,score,rank,interval
+Afghanistan,AFG,AP,1.5,176,1.1 - 1.6
+Albania,ALB,ECA,3.4,85,3.3 - 3.4
+Algeria,DZA,MENA,3.2,92,2.9 - 3.4
+Angola,AGO,SSA,1.9,158,1.5 - 2.2
+Argentina,ARG,AME,2.9,109,2.5 - 3.3
+Armenia,ARM,ECA,2.9,109,2.6 - 3.1
+Australia,AUS,AP,8.7,9,8.2 - 9.1
+Austria,AUT,WE/EU,8.1,12,7.6 - 8.6
+Azerbaijan,AZE,ECA,1.9,158,1.7 - 2.1
+Bahrain,BHR,MENA,5.4,43,4.3 - 5.9
+Bangladesh,BGD,AP,2.1,147,1.7 - 2.4
+Barbados,BRB,AME,7,22,6.5 - 7.3
+Belarus,BLR,ECA,2,151,1.6 - 2.5
+Belgium,BEL,WE/EU,7.3,18,7.2 - 7.4
+Belize,BLZ,AME,2.9,109,1.9 - 3.7
+Benin,BEN,SSA,3.1,96,2.8 - 3.4
+Bhutan,BTN,AP,5.2,45,4.5 - 5.9
+Bolivia,BOL,AME,3,102,2.8 - 3.2
+Bosnia and Herzegovina,BIH,ECA,3.2,92,2.9 - 3.5
+Botswana,BWA,SSA,5.8,36,5.2 - 6.4
+Brazil,BRA,AME,3.5,80,3.2 - 4.0
+Bulgaria,BGR,WE/EU,3.6,72,3.0 - 4.3
+Burkina Faso,BFA,SSA,3.5,80,2.9 - 4.2
+Burundi,BDI,SSA,1.9,158,1.5 - 2.3
+Cabo Verde,CPV,SSA,5.1,47,3.4 - 5.6
+Cambodia,KHM,AP,1.8,166,1.7 - 1.9
+Cameroon,CMR,SSA,2.3,141,2.0 - 2.7
+Canada,CAN,AME,8.7,9,8.4 - 9.1
+Central African Republic,CAF,SSA,2,151,1.9 - 2.2
+Chad,TCD,SSA,1.6,173,1.5 - 1.7
+Chile,CHL,AME,6.9,23,6.5 - 7.2
+China,CHN,AP,3.6,72,3.1 - 4.3
+Colombia,COL,AME,3.8,70,3.3 - 4.5
+Comoros,COM,SSA,2.5,134,1.9 - 3.0
+Congo,COG,SSA,1.9,158,1.8 - 2.0
+Costa Rica,CRI,AME,5.1,47,4.8 - 5.3
+Cote d'Ivoire,CIV,SSA,2,151,1.7 - 2.5
+Croatia,HRV,WE/EU,4.4,62,4.0 - 4.8
+Cuba,CUB,AME,4.3,65,3.6 - 4.8
+Cyprus,CYP,WE/EU,6.4,31,5.9 - 6.8
+Czech Republic,CZE,WE/EU,5.2,45,4.8 - 5.9
+Democratic Republic of the Congo,COD,SSA,1.7,171,1.6 - 1.9
+Denmark,DNK,WE/EU,9.3,1,9.1 - 9.4
+Djibouti,DJI,SSA,3,102,2.2 - 3.3
+Dominica,DMA,AME,6,33,4.7 - 6.8
+Dominican Republic,DOM,AME,3,102,2.7 - 3.2
+Ecuador,ECU,AME,2,151,1.8 - 2.2
+Egypt,EGY,MENA,2.8,115,2.4 - 3.2
+El Salvador,SLV,AME,3.9,67,3.2 - 4.5
+Equatorial Guinea,GNQ,SSA,1.7,171,1.5 - 1.8
+Eritrea,ERI,SSA,2.6,126,1.7 - 3.6
+Estonia,EST,WE/EU,6.6,27,6.2 - 6.9
+Ethiopia,ETH,SSA,2.6,126,2.2 - 2.9
+Finland,FIN,WE/EU,9,5,8.4 - 9.4
+France,FRA,WE/EU,6.9,23,6.5 - 7.3
+Gabon,GAB,SSA,3.1,96,2.8 - 3.3
+Gambia,GMB,SSA,1.9,158,3.2 - 4.6
+Georgia,GEO,ECA,3.9,67,3.2 - 4.6
+Germany,DEU,WE/EU,7.9,14,7.5 - 8.2
+Ghana,GHA,SSA,3.9,67,3.4 - 4.5
+Greece,GRC,WE/EU,4.7,57,4.2 - 5.0
+Guatemala,GTM,AME,3.1,96,2.3 - 4.0
+Guinea,GIN,SSA,1.6,173,1.3 - 1.9
+Guinea Bissau,GNB,SSA,1.9,158,1.8 - 2.0
+Guyana,GUY,AME,2.6,126,2.4 - 2.7
+Haiti,HTI,AME,1.4,177,1.1 - 1.7
+Honduras,HND,AME,2.6,126,2.3 - 2.9
+Hong Kong,HKG,AP,8.1,12,7.5 - 8.6
+Hungary,HUN,WE/EU,5.1,47,4.8 - 5.4
+Iceland,ISL,WE/EU,8.9,7,8.1 - 9.4
+India,IND,AP,3.4,85,3.2 - 3.6
+Indonesia,IDN,AP,2.6,126,2.3 - 2.9
+Iran,IRN,MENA,2.3,141,1.9 - 2.5
+Iraq,IRQ,MENA,1.3,178,1.1 - 1.6
+Ireland,IRL,WE/EU,7.7,16,7.5 - 7.9
+Israel,ISR,MENA,6,33,5.6 - 6.3
+Italy,ITA,WE/EU,4.8,55,4.0 - 5.5
+Jamaica,JAM,AME,3.1,96,2.8 - 3.3
+Japan,JPN,AP,7.3,18,7.0 - 7.6
+Jordan,JOR,MENA,5.1,47,4.0 - 6.2
+Kazakhstan,KAZ,ECA,2.2,145,1.8 - 2.7
+Kenya,KEN,SSA,2.1,147,1.9 - 2.4
+"Korea, South",KOR,AP,5.6,40,5.1 - 6.3
+Kribati,KIR,AP,3.1,96,2.5 - 3.4
+Kuwait,KWT,MENA,4.3,65,3.3 - 5.2
+Kyrgyzstan,KGZ,ECA,1.8,166,1.7 - 1.9
+Laos,LAO,AP,2,151,1.6 - 2.3
+Latvia,LVA,WE/EU,5,52,4.8 - 5.2
+Lebanon,LBN,MENA,3,102,2.2 - 3.6
+Lesotho,LSO,SSA,3.2,92,2.3 - 3.8
+Liberia,LBR,SSA,2.4,138,1.8 - 2.8
+Libya,LBY,MENA,2.6,126,2.2 - 3.0
+Lithuania,LTU,WE/EU,4.6,58,4.1 - 5.2
+Luxembourg,LUX,WE/EU,8.3,11,7.8 - 8.8
+Macao,MAC,MO,5.4,43,3.9 - 6.2
+Madagascar,MDG,SSA,3.4,85,2.8 - 4.0
+Malawi,MWI,SSA,2.8,115,2.4 - 3.1
+Malaysia,MYS,AP,5.1,47,4.5 - 5.7
+Maldives,MDV,AP,2.8,115,1.7 - 4.3
+Mali,MLI,SSA,3.1,96,2.8 - 3.3
+Malta,MLT,WE/EU,5.8,36,5.3 - 6.3
+Mauritania,MRT,SSA,2.8,115,2.2 - 3.7
+Mauritius,MUS,SSA,5.5,41,4.9 - 6.4
+Mexico,MEX,AME,3.6,72,3.4 - 3.9
+Moldova,MDA,ECA,2.9,109,2.4 - 3.7
+Mongolia,MNG,AP,3,102,2.6 - 3.3
+Montenegro,MNE,ECA,3.4,85,2-5 - 4.0
+Morocco,MAR,MENA,3.5,80,3.0 - 4.0
+Mozambique,MOZ,SSA,2.6,126,2.4 - 2.9
+Myanmar,MMR,AP,1.3,178,1.0 - 1.5
+Namibia,NAM,SSA,4.5,61,3.8 - 5.1
+Nepal,NPL,AP,2.7,121,2.4 - 3.0
+Netherlands,NLD,WE/EU,8.9,7,8.5 - 9.1
+New Zealand,NZL,AP,9.3,1,9.2 - 9.5
+Nicaragua,NIC,AME,2.5,134,2.2 - 2.7
+Niger,NER,SSA,2.8,115,2.4 - 3.0
+Nigeria,NGA,SSA,2.7,121,2.3 - 3.0
+North Macedonia,MKD,ECA,3.6,72,2.9 - 4.3
+Norway,NOR,WE/EU,7.9,14,7.5 - 8.3
+Oman,OMN,MENA,5.5,41,4.5 - 6.4
+Pakistan,PAK,AP,2.5,134,2.8 - 3.7
+Panama,PAN,AME,3.4,85,2.8 - 3.7
+Papua New Guinea,PNG,AP,2,151,1.6 - 2.3
+Paraguay,PRY,AME,2.4,138,2.0 - 2.7
+Peru,PER,AME,3.6,72,3.4 - 4.1
+Philippines,PHL,AP,2.3,141,2.1 - 2.5
+Poland,POL,WE/EU,4.6,58,4.0 - 5.2
+Portugal,PRT,WE/EU,6.1,32,5.6 - 6.7
+Puerto Rico,PRI,AM,5.8,36,5.0 - 6.6
+Qatar,QAT,MENA,6.5,28,5.6 - 7.0
+Romania,ROU,WE/EU,3.8,70,3.4 - 4.2
+Russia,RUS,ECA,2.1,147,1.9 - 2.5
+Rwanda,RWA,SSA,3,102,2.7 - 3.2
+Saint Lucia,LCA,AME,7.1,21,6.6 - 7.3
+Saint Vincent and the Grenadines,VCT,AME,6.5,28,4.7 - 7.3
+Samoa,WSM,AS,4.4,62,3.4 - 4.8
+Sao Tome and Principe,STP,SSA,2.7,121,2.1 - 3.1
+Saudi Arabia,SAU,MENA,3.5,80,3.0 - 3.9
+Senegal,SEN,SSA,3.4,85,2.9 - 4.0
+Serbia,SRB,ECA,3.4,85,3.0 - 4.0
+Seychelles,SYC,SSA,4.8,55,3.7 - 5.9
+Sierra Leone,SLE,SSA,1.9,158,1.8 - 2.0
+Singapore,SGP,AP,9.2,4,9.0 - 9.3
+Slovakia,SVK,WE/EU,5,52,4.5 - 5.3
+Slovenia,SVN,WE/EU,6.7,26,6.5 - 7.0
+Solomon Islands,SLB,AP,2.9,109,2.5 - 3.2
+Somalia,SOM,SSA,1,180,0.5 - 1.4
+South Africa,ZAF,SSA,4.9,54,4.5 - 5.1
+Spain,ESP,WE/EU,6.5,28,5.7 - 6.9
+Sri Lanka,LKA,AP,3.2,92,2.9 - 3.5
+Sudan,SDN,SSA,1.6,173,1.5 - 1.7
+Suriname,SUR,AME,3.6,72,3.3 - 4.0
+Swaziland,SWZ,AME,3.6,72,2.9 - 4.3
+Sweden,SWE,WE/EU,9.3,1,9.2 - 9.4
+Switzerland,CHE,WE/EU,9,5,8.7 - 9.2
+Syria,SYR,MENA,2.1,147,1.6 - 2.4
+Taiwan,TWN,AP,5.7,39,5.4 - 6.0
+Tajikistan,TJK,ECA,2,151,1.7 - 2.3
+Tanzania,TZA,SSA,3,102,2.5 - 3.3
+Thailand,THA,AP,3.5,80,3.0 - 3.9
+Timor-Leste,TLS,AP,2.2,145,1.8 - 2.5
+Togo,TGO,SSA,2.7,121,1.9 - 3.7
+Tonga,TON,AP,2.4,138,1.9 - 2.6
+Trinidad and Tobago,TTO,AME,3.6,72,3.1 - 4.0
+Tunisia,TUN,MENA,4.4,62,3.5 - 5.5
+Turkey,TUR,ECA,4.6,58,4.1 - 5.1
+Turkmenistan,TKM,ECA,1.8,166,1.5 - 2.2
+Uganda,UGA,SSA,2.6,126,2.2 - 3.0
+Ukraine,UKR,ECA,2.5,134,2.2 - 2.8
+United Arab Emirates,ARE,MENA,5.9,35,4.8 - 6.8
+United Kingdom,GBR,WE/EU,7.7,16,7.2 - 8.1
+United States of America,USA,AME,7.3,18,6.7 - 7.7
+Uruguay,URY,AME,6.9,23,6.5 - 7.2
+Uzbekistan,UZB,ECA,1.8,166,1.5 - 2.2
+Vanuatu,VUT,AP,2.9,109,2.5 - 3.2
+Venezuela,VEN,AME,1.9,158,1.8 - 2.0
+Vietnam,VNM,AP,2.7,121,2.4 - 3.1
+Yemen,YEM,MENA,2.3,141,1.5 - 2.2
+Zambia,ZMB,SSA,2.8,115,2.5 - 3.0
+Zimbabwe,ZWE,SSA,1.8,166,1.5 - 2.1

@@ -1,3 +1,5 @@
+## run this code to create a graph of average number of protests by country since 2000
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
