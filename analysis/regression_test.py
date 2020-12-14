@@ -11,9 +11,9 @@ df_protests = pd.DataFrame(protests_data)
 df_unemployment = pd.DataFrame(unemployment_data)
 df_corruption = pd.DataFrame(corruption_data)
 
+# change country name below
 country_name = 'Iran'
 
-# change country below
 protests_country = protests_data.loc[protests_data['country'] == country_name]
 # print(protests_country)
 
@@ -50,7 +50,6 @@ df_years_protests = pd.DataFrame(list(year_to_protests.items()), columns=['year'
 
 ## unemployment data
 # print(unemployment_data)
-# change country below
 unemployment_country = unemployment_data[unemployment_data['country'] == country_name].T
 unemployment_country.reset_index(inplace=True)
 unemployment_country.drop([0, 1], inplace=True)
@@ -83,6 +82,7 @@ plt.title('Protests Vs Unemployment Rate', fontsize=14)
 plt.xlabel('Unemployment Rate', fontsize=14)
 plt.ylabel('Number of Protests', fontsize=14)
 plt.grid(True)
+# uncomment below to show graph
 # plt.show()
 # uncomment below to save graph as .png
 # plt.savefig('unemployment_vs_protests_' + country_name + '.png')
@@ -92,6 +92,7 @@ plt.title('Protests Vs CPI Score', fontsize=14)
 plt.xlabel('CPI Score', fontsize=14)
 plt.ylabel('Number of Protests', fontsize=14)
 plt.grid(True)
+# uncomment below to show graph
 # plt.show()
 # uncomment below to save graph as .png
 # plt.savefig('corruption_vs_protests_' + country_name + '.png')
@@ -99,7 +100,7 @@ plt.grid(True)
 X = df[['CPI_Score', 'unemployment_rate']]
 Y = df.protests
 
-# with sklearn
+## regression model
 model = linear_model.LinearRegression()
 model.fit(X, Y)
 X1 = sm.add_constant(X)
