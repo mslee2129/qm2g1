@@ -11,11 +11,12 @@ df_protests = pd.DataFrame(protests_data)
 df_unemployment = pd.DataFrame(unemployment_data)
 df_corruption = pd.DataFrame(corruption_data)
 
-country_name = 'Afghanistan'
+country_name = 'Iran'
 
 # change country below
 protests_country = protests_data.loc[protests_data['country'] == country_name]
 # print(protests_country)
+
 
 protests_country = protests_country[['year', 'protest']]
 # print(protests_country)
@@ -36,7 +37,7 @@ year_list.sort()
 year_to_protests = {}
 for year in year_list:
     year_to_protests[year] = 0
-# print(year_to_protests)
+print(year_to_protests)
 
 # counting total protests and adding to dic
 for i in range(len(has_protest)):
@@ -73,15 +74,15 @@ corruption_country.sort_values(by=['year'], ascending=True, inplace=True)
 corruption_country.reset_index(inplace=True)
 # print(corruption_country)
 df['CPI_Score'] = corruption_country['CPI_Score']
+df.dropna(inplace=True)
 
-# print(df)
+print(df)
 
 plt.scatter(df['unemployment_rate'], df['protests'], color='green')
 plt.title('Protests Vs Unemployment Rate', fontsize=14)
 plt.xlabel('Unemployment Rate', fontsize=14)
 plt.ylabel('Number of Protests', fontsize=14)
 plt.grid(True)
-# uncomment below to show graph
 # plt.show()
 # uncomment below to save graph as .png
 # plt.savefig('unemployment_vs_protests_' + country_name + '.png')
@@ -91,27 +92,32 @@ plt.title('Protests Vs CPI Score', fontsize=14)
 plt.xlabel('CPI Score', fontsize=14)
 plt.ylabel('Number of Protests', fontsize=14)
 plt.grid(True)
-# uncomment below to show graph
 # plt.show()
 # uncomment below to save graph as .png
 # plt.savefig('corruption_vs_protests_' + country_name + '.png')
 
-# X = df[['unemployment_rate']]
-# Y = df['protests']
-#
-# # with sklearn
-# reg = linear_model.LinearRegression()
-# reg.fit(X, Y)
-#
-# print('Intercept: \n', reg.intercept_)
-# print('Coefficients: \n', reg.coef_)
-# print('Coefficient of determination: \n', r2_score())
-# # prediction with sklearn
-# # New_Interest_Rate = 2.75
-# # New_Unemployment_Rate = 5.3
-# # print('Predicted Stock Index Price: \n', regr.predict([[New_Interest_Rate, New_Unemployment_Rate]]))
-#
-# # with statsmodels
+X = df[['CPI_Score', 'unemployment_rate']]
+Y = df.protests
+
+# with sklearn
+model = linear_model.LinearRegression()
+model.fit(X, Y)
+X1 = sm.add_constant(X)
+result = sm.OLS(Y, X1.astype(float)).fit()
+r2_score = result.rsquared
+r2_adjusted = result.rsquared_adj
+
+print('Intercept: \n', model.intercept_)
+print('Coefficients: \n', model.coef_)
+print('r2 value: \n', r2_score)
+print('r2 adjusted: \n', r2_adjusted)
+
+# prediction with sklearn
+# New_Interest_Rate = 2.75
+# New_Unemployment_Rate = 5.3
+# print('Predicted Stock Index Price: \n', regr.predict([[New_Interest_Rate, New_Unemployment_Rate]]))
+
+# with statsmodels
 # X = sm.add_constant(X)  # adding a constant
 #
 # model = sm.OLS(Y, X).fit()
