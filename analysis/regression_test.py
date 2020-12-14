@@ -88,7 +88,7 @@ plt.grid(True)
 # plt.savefig('unemployment_vs_protests_' + country_name + '.png')
 
 plt.scatter(df['CPI_Score'], df['protests'], color='green')
-plt.title('Protests Vs CPI Score', fontsize=14)
+plt.title('Protests Vs CPI Score: ' + country_name, fontsize=14)
 plt.xlabel('CPI Score', fontsize=14)
 plt.ylabel('Number of Protests', fontsize=14)
 plt.grid(True)
