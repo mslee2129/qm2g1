@@ -1,0 +1,24 @@
+DATASETS
+
+A total of three datasets were used to create the visualizations which the analysis is based upon. They are as follows:
+
+Mass Mobilization Protest Data (Harvard Dataverse, 2020)
+
+This dataset was retrieved from the Harvard Dataverse, however is part of a project led by political scientists David H. Clark and Patrick M. Regan at Binghamton University. Featuring over 160 countries, the dataset shows the location, dates, number of protests, and protester’s demand, which we used for our visualizations. Perfect for our scope of the research, this dataset spans from 1990-2019, where the last two decades were used. For our maps, we used the location, quantity and demand to analyze protests and their formations in general. To create our linear regression graphs, we used the quantity of protesters and compared it with the social indicators.
+
+Unemployment, total (% of total labor force) (modelled ILO estimate) (World Bank, 2020)
+
+This dataset was retrieved from the World Bank, describing the unemployment rate per year of every country. The data goes as far back as 1991, however only the past two decades have been considered to stay consistent with the set research parameters. To determine the potential correlation between social indicators and quantity of protests, this dataset was used to make the linear regression graphs. The dataset also allows for further analysis of the impact protests have on economic inequalities within the Arab Spring countries. 
+
+Corruption Perceptions Index (Transparency International, 2019)
+
+Retrieved from Transparency International, this dataset includes the corruption perceptions index (CPI) for 180 countries. The CPI ranks these countries in terms of their level of public sector corruption that is perceived by experts and businesspeople. This dataset was used to create our visualizations to determine correlation between political social indicators and protests, as well as if the protests during the Arab Spring improved the political situation within their respective countries. 
+
+These datasets were chosen as they provided quantitative insight into protest around the world (quantity and characteristics), as well as the yearly rates for the chosen social indicators (unemployment rate and corruption rate). Using the first dataset, a simple graph can be made depicting the evolution of protests over the past twenty years. Furthermore, a choropleth map can be created showing the quantity of protests particular to each country, with the top reason for these protests stated on the map as well. From this, further analysis is prompted to compare general protest data with their potential root causes: unemployment rate and corruption rate. By adding the latter two datasets to the research, a multilinear regression can be made to examine possible correlations. This visualization can allow governments and society to be more informed about protests and their factors, solidifying whether or not these social indicators actually influence the formation of protests.
+
+All the datasets were free and accessible by the public. Furthermore, they were straightforward to download as csv files and could be manipulated for the purposes of the visualizations. These aspects of convenience also factored into the choice to use these particular datasets for the project. Finally, the datasets were retrieved from reliable sources: the Harvard Dataverse created by one of the leading universities in the world, the World Bank Database considered internationally as one of the most consistent databases, and finally Transparency International as a media source has minimal bias and their reportings are factual with sources. 
+
+Data Processing
+
+After retrieving all the datasets, they were manually cleaned using Python. We firstly had to sync the names of the countries that were denoted differently across the datasets into simpler, more easily recognisable names. For example, names like ‘Syrian Arab Republic’ were shortened to just ‘Syria’, while ‘Congo Brazzaville’ was changed to ‘Congo, Rep.’ This was applied to all three datasets, since standardising the names would facilitate future coding processes. The datasets were then cross-referenced in order to delete countries that didn’t exist in all three datasets – this resulted in a number of omissions in the final datasets, leaving a total of 158 countries. All 14 of the Arab countries relevant to the project were part of the remaining countries.
+
